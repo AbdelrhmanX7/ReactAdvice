@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    margin: 3rem auto;
+    width: 466px;
+    padding: 12px 30px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: unset;
+}
+.main p {
+    font-size: 14px;
+    color: hsl(150, 100%, 66%);
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+.main h2 {
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+}
+.iconDice {
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    width: 65px; height: 65px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    display: flex; justify-content: center; align-items: center;
+    transition: 0.5s;
+    border: none;
+}
+.iconDice:hover,
+.iconDice:active {
+    box-shadow: 0 0 20px 11px hsl(125deg 100% 66% / 56%);
+}
+@media screen and (max-width: 570px) {
+    .main {
+        width: 90%;
+        box-sizing: border-box;
+        padding: 12px 12px;
+    }
+    .main h2 {
+        font-size: 20px;
+        color: hsl(193, 38%, 86%);
+    }
+    .main > img {
+        width: 350px;
+        height: 14px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .main > img {
+        width: 290px;
+        height: 13px;
+    }
+}
