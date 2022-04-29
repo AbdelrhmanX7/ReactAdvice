@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactAdvice/static/css/main.a68d658f.css",
+    "main.js": "/ReactAdvice/static/js/main.4d4c8965.js",
+    "index.html": "/ReactAdvice/index.html",
+    "static/media/icon-dice.svg": "/ReactAdvice/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-desktop.svg": "/ReactAdvice/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
+    "main.a68d658f.css.map": "/ReactAdvice/static/css/main.a68d658f.css.map",
+    "main.4d4c8965.js.map": "/ReactAdvice/static/js/main.4d4c8965.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a68d658f.css",
+    "static/js/main.4d4c8965.js"
+  ]
+}
